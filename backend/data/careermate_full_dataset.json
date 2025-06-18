@@ -1,0 +1,92 @@
+{
+  "Data Scientist": [
+    {
+      "question": "How do you handle missing data when building a predictive model?",
+      "answer": "I analyze missing patterns, then use mean/median imputation or more advanced methods like MICE or KNN depending on model sensitivity."
+    },
+    {
+      "question": "Describe a time you used data storytelling to influence a decision.",
+      "answer": "I visualized churn patterns using Tableau to show high-risk user segments, convincing stakeholders to approve a retention initiative."
+    },
+    {
+      "question": "What\u2019s the difference between precision and recall?",
+      "answer": "Precision measures accuracy among positive predictions; recall measures how many actual positives are captured."
+    },
+    {
+      "question": "How would you validate a machine learning model?",
+      "answer": "I use cross-validation, metrics like F1, ROC-AUC, and check for overfitting using test set performance."
+    }
+  ],
+  "AI Engineer": [
+    {
+      "question": "Tell me about a time you deployed an AI model into production.",
+      "answer": "I containerized a model using Docker and deployed it on Kubernetes with CI/CD pipelines for smooth rollout."
+    },
+    {
+      "question": "How would you implement a real-time object detection system?",
+      "answer": "I'd use YOLOv8 with OpenCV for camera integration and TensorRT for fast inference."
+    },
+    {
+      "question": "Explain model versioning in MLOps.",
+      "answer": "I use MLflow or DVC to track different models with performance metrics, ensuring reproducibility and rollback safety."
+    },
+    {
+      "question": "What\u2019s the role of ONNX in AI Engineering?",
+      "answer": "ONNX helps convert models between frameworks like PyTorch and TensorFlow, making deployment more flexible."
+    }
+  ],
+  "Frontend Developer": [
+    {
+      "question": "How do you optimize a React application for performance?",
+      "answer": "By using React.memo, code splitting, lazy loading, and avoiding unnecessary state updates."
+    },
+    {
+      "question": "Describe your approach to responsive web design.",
+      "answer": "I use mobile-first CSS, media queries, flexible grids, and relative units to support all devices."
+    },
+    {
+      "question": "How do you manage state in large-scale React apps?",
+      "answer": "I use Redux Toolkit or Zustand, keeping global and local states well scoped for performance."
+    },
+    {
+      "question": "What\u2019s your process for accessibility in UI design?",
+      "answer": "I use semantic HTML, ARIA labels, keyboard navigation, and screen reader testing with Axe or Lighthouse."
+    }
+  ],
+  "Backend Developer": [
+    {
+      "question": "How do you ensure the scalability of backend systems?",
+      "answer": "I design stateless services, use load balancers, caching (Redis), and async processing like Celery or Kafka."
+    },
+    {
+      "question": "Explain how you secure a REST API.",
+      "answer": "I use token-based auth (JWT), input validation, rate limiting, HTTPS, and headers like CORS and CSP."
+    },
+    {
+      "question": "What\u2019s your preferred database optimization technique?",
+      "answer": "Indexing, query profiling, using joins smartly, and caching frequent reads are my go-to strategies."
+    },
+    {
+      "question": "How do you handle background tasks?",
+      "answer": "I use Celery or FastAPI BackgroundTasks for async job queues, retries, and monitoring with Flower."
+    }
+  ],
+  "UX Designer": [
+    {
+      "question": "How do you approach user research?",
+      "answer": "I run user interviews, usability tests, and surveys, then synthesize insights to guide design decisions."
+    },
+    {
+      "question": "Describe a time your design improved conversion rates.",
+      "answer": "Redesigned a checkout flow, reducing friction and increasing form completion by 22% using A/B tests."
+    },
+    {
+      "question": "How do you collaborate with developers?",
+      "answer": "Through Figma specs, design tokens, shared components, and constant feedback during implementation."
+    },
+    {
+      "question": "What is your process for accessibility in design?",
+      "answer": "Ensure contrast ratios, screen reader labels, focus states, and test with tools like WAVE or VoiceOver."
+    }
+  ]
+}

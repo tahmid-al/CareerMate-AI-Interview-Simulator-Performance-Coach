@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+langchain
+openai 
+Ollama  # or use your local LLM via Ollama, etc.
+sentence-transformers
+faiss-cpu
+bert_score
